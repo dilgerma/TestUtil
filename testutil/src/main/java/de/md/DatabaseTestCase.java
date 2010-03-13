@@ -168,10 +168,10 @@ public abstract class DatabaseTestCase extends TestCase {
 			writer.write(cName + " : ");
 		    	writer.write(result);
 			writer.append("\n");
-			index++;
+			
 			}    
 		}
-		
+	    index++;
 	    }
 	}
     }
